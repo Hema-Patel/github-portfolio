@@ -1,0 +1,91 @@
+nav {
+    background-color: #444;
+    padding: 15px;
+  }
+  nav a {
+    color: #f0f0f0;
+    margin: 0 20px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.3s ease;
+  }
+  nav a:hover {
+    color: #ff6347;
+  }
+  
+  /* Header Styles */
+  header h1 {
+    color: #444;
+    font-size: 28px;
+    margin-left: 25px;
+  }
+  
+  /* About Me Section Styles */
+  .about-section {
+    text-align: center;
+    padding: 30px;
+    margin: 30px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+  }
+  .about-section img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 3px solid #444;
+  }
+  .about-section p {
+    color: #666;
+    font-size: 18px;
+  }
+  
+  /* Projects Section Styles */
+  .projects-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 25px;
+    padding: 25px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+  }
+  .project img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  /* Contact Form Styles */
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #fafafa;
+  }
+  form label {
+    margin-top: 15px;
+    color: #444;
+    font-size: 16px;
+  }
+  form input, form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 7px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  form button {
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: #444;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  form button:hover {
+    background-color: #ff6347;
+  }
